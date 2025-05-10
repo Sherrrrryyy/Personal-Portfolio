@@ -10,13 +10,13 @@ export default function Home() {
     
       <div className='min-h-screen bg-background'>       
         {/* Main Section */}
-        <main className="container pt-32 px-5">
+        <main className="container pt-50 px-5">
           <section>
             <div className="max-w-3xl space-y-6">
               <div className='flex items-center justify-start'>
                 <h1 className="border border-white p-2 rounded-full border-r-4 font-bold tracking-tight">Available for hire</h1>
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight pt-5">
                 Hi, I'm <span className="text-primary">Shaheer</span>
                 <br />
                 Full Stack Developer
@@ -25,13 +25,13 @@ export default function Home() {
                 I build exceptional and accessible digital experiences for the web.
               </p>
 
-              <div className="flex gap-4">
-                <div className='p-4 rounded-md border border-primary bg-white text-black font-bold flex gap-4'>
+              <div className="flex gap-4 pt-5">
+                <div className='p-2 px-5 rounded-md border border-primary bg-white text-black font-bold flex gap-4'>
                   <button className="btn-primary">
                     View Projects
                   </button>
                 </div>
-                <div className='p-4 rounded-md border border-white bg-black text-white font-bold flex gap-4'>
+                <div className='p-2 px-5 rounded-md border border-white bg-black text-white font-bold flex gap-4'>
                   <button className="btn-secondary">
                     Download CV
                   </button>
@@ -40,8 +40,8 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mt-10">
-            <div className="flex gap-10">
+          <section className="container">
+            <div className="flex gap-12 pt-16">
               <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
                 <button className="icon-button">
                   <span className="sr-only">GitHub</span>
