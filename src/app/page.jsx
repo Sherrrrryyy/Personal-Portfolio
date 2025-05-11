@@ -10,7 +10,6 @@ export default function Home() {
     <Main />
 
     <div className='min-h-screen bg-background'>
-
         {/* About Section */}
         <section id="about" className="py-18 p-8 scroll-mt-20">
           <div className="flex flex-col md:flex-row gap-12">
@@ -58,36 +57,6 @@ export default function Home() {
                 </div>
               </div>
               </div>
-            </div>
-
-            <div className="flex-1">
-              {/* <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-4">Experience</h3>
-                  <div className="space-y-6">
-                    <div>
-                      <div className="flex justify-between items-center">
-                        <h4 className="font-medium">Senior Frontend Developer</h4>
-                        <Badge variant="outline">2021 - Present</Badge>
-                      </div>
-                      <p className="text-primary">TechCorp Inc.</p>
-                      <p className="text-sm text-muted-foreground mt-2">
-                        Led the frontend team in developing a SaaS platform with React and Next.js.
-                      </p>
-                    </div>
-                    <div>
-                      <div className="flex justify-between items-center">
-                        <h4 className="font-medium">Full Stack Developer</h4>
-                        <Badge variant="outline">2018 - 2021</Badge>
-                      </div>
-                      <p className="text-primary">WebSolutions Ltd.</p>
-                      <p className="text-sm text-muted-foreground mt-2">
-                        Built and maintained multiple client websites and web applications.
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card> */}
             </div>
           </div>
         </section>
