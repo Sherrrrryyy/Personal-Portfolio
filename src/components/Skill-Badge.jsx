@@ -1,6 +1,6 @@
 export default function SkillBadge({ name, level }) {
   return (
-    <div className="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 shadow-sm">
+    <div className="rounded-lg border border-white dark:border-white bg-white dark:bg-black shadow-sm">
       <div className="p-4">
         <div className="flex flex-col gap-2">
           <div className="flex justify-between items-center">
