@@ -4,7 +4,6 @@ import SkillBadge from './Skill-Badge';
 const Skills = () => {
   return (
     <div>
-         {/* Skills Section */}
         <section id="skills" className="p-8 py-16 scroll-mt-20">
           <h2 className="text-3xl font-bold mb-10">Skills & Technologies</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
