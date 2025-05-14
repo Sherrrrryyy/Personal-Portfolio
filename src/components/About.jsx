@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             {/* About Section */}
-            <section id="about" className="py-18 p-8 scroll-mt-20">
+            <section id="about" className="p-8 scroll-mt-20">
                 <div className="flex flex-col md:flex-row gap-12">
                     <div className="flex-1/3">
                         <h2 className="text-3xl font-bold mb-6">About Me</h2>
