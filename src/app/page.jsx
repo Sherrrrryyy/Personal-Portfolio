@@ -2,6 +2,7 @@
 import About from '@/components/About';
 import Header from '@/components/Header.jsx';
 import Main from '@/components/Main';
+import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import React from 'react';
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
+      <Projects />
 
       <div className='min-h-screen bg-background'>
       
