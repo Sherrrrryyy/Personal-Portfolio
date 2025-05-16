@@ -27,18 +27,18 @@ export default function ProjectCard({ title, description, image, tags, demoUrl, 
           ))}
         </div>
         <div className="flex gap-3">
-          <Button asChild size="sm" variant="outline">
-            <Link href={demoUrl} target="_blank" rel="noopener noreferrer">
-              <ExternalLink className="h-4 w-4 mr-2" />
-              Live Demo
-            </Link>
-          </Button>
-          <Button asChild size="sm" variant="outline">
-            <Link href={repoUrl} target="_blank" rel="noopener noreferrer">
-              <Github className="h-4 w-4 mr-2" />
-              Code
-            </Link>
-          </Button>
+            <Button asChild size="sm" variant="outline">
+              <Link href={demoUrl} target="_blank" rel="noopener noreferrer">
+                <ExternalLink className="h-4 w-4 mr-2" />
+                Live Demo
+              </Link>
+            </Button>
+            <Button asChild size="sm" variant="outline">
+              <Link href={repoUrl} target="_blank" rel="noopener noreferrer">
+                <Github className="h-4 w-4 mr-2" />
+                Code
+              </Link>
+            </Button>
         </div>
       </CardContent>
     </Card>
