@@ -10,16 +10,13 @@ const About = () => {
                         <h2 className="text-3xl font-bold mb-6">About Me</h2>
                         <div className="space-y-4 text-muted-foreground">
                             <p>
-                                I'm a passionate full-stack developer with over 5 years of experience building web applications. I
-                                specialize in React, Next.js, Node.js, and modern web technologies.
+                                I'm Muhammad Shaheer Khan, a passionate Full Stack Web Developer with a strong focus on building clean, functional, and user-friendly web applications. I specialize in technologies like React, Next.js, Tailwind CSS, Node.js, Express.js, and Firebase.
                             </p>
                             <p>
-                                My journey in web development started when I built my first website at 15. Since then, I've worked
-                                with startups and established companies to create intuitive and performant digital experiences.
+                                I'm continuously learning and expanding my skill set, diving into tools and technologies that keep me ahead in this fast-moving industry. I'm also comfortable with version control (Git), responsive design, and RESTful APIs.
                             </p>
                             <p>
-                                When I'm not coding, you can find me hiking, reading sci-fi novels, or experimenting with new
-                                technologies.
+                                When I’m not coding, I enjoy thinking about startup ideas, experimenting with new stacks, and sharing knowledge with other
                             </p>
                         </div>
                     </div>

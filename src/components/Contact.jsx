@@ -4,7 +4,7 @@ const Contact = () => {
   return (
    <>
       {/* Contact Section */}
-        <section id="contact" className="py-16 scroll-mt-20">
+        <section id="contact" className="py-16 p-8 scroll-mt-20">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="flex-1">
               <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
