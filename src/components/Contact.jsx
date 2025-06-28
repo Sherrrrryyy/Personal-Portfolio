@@ -14,11 +14,11 @@ const Contact = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
-                  <span className="text-purple-600 dark:text-purple-400">✉️</span>
-                  <span>alex@example.com</span>
+                  <span className="text-white">✉️</span>
+                  <span>shaheerkhan090909@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-purple-600 dark:text-purple-400">
+                  <span className="text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -35,10 +35,10 @@ const Contact = () => {
                       <circle cx="4" cy="4" r="2"></circle>
                     </svg>
                   </span>
-                  <span>linkedin.com/in/alexdev</span>
+                  <a>www.linkedin.com/in/shaheer-khan-ab6327285</a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-purple-600 dark:text-purple-400">
+                  <span className="text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
@@ -54,7 +54,7 @@ const Contact = () => {
                       <path d="M9 18c-4.51 2-5-2-7-2"></path>
                     </svg>
                   </span>
-                  <span>github.com/alexdev</span>
+                  <span>github.com/Sherrrrryyy</span>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                         </label>
                         <input
                           id="name"
-                          className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600"
+                          className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none"
                           placeholder="Your name"
                         />
                       </div>
@@ -80,7 +80,7 @@ const Contact = () => {
                         <input
                           id="email"
                           type="email"
-                          className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600"
+                          className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none"
                           placeholder="Your email"
                         />
                       </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                       </label>
                       <input
                         id="subject"
-                        className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600"
+                        className="flex h-10 w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none"
                         placeholder="Subject"
                       />
                     </div>
@@ -101,11 +101,11 @@ const Contact = () => {
                       </label>
                       <textarea
                         id="message"
-                        className="flex min-h-[120px] w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-600"
+                        className="flex min-h-[120px] w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none"
                         placeholder="Your message"
                       />
                     </div>
-                    <button className="inline-flex w-full items-center justify-center rounded-md bg-purple-600 px-4 py-2 text-sm font-medium text-white hover:bg-purple-700 dark:bg-purple-700 dark:hover:bg-purple-600 transition-colors">
+                    <button className="inline-flex w-full items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-black hover:bg-gray-100 transition-colors">
                       Send Message
                     </button>
                   </form>
