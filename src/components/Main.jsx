@@ -51,9 +51,21 @@ const Main = () => {
                             <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                                 <button className="icon-button cursor-pointer">
                                     <span className="sr-only">LinkedIn</span>
-                                    <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                        <path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8.34 19H5.67V9h2.67v10zM7 7.67C6.07 7.67 5.33 6.93 5.33 6S6.07 4.33 7 4.33 8.67 5.07 8.67 6 7.93 7.67 7 7.67zM19 19h-2.67v-5.33c0-1.27-.47-2.13-1.67-2.13-.93 0-1.47.63-1.73 1.23-.1.23-.13.53-.13.83V19H10v-10h2.67v1.33h.03c.37-.57 1.03-1.37 2.4-1.37 1.73 0 3.03 1.13 3.03 3.57V19z" />
-                                    </svg>
+                                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect width="4" height="12" x="2" y="9"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
                                 </button>
                             </Link>
                            

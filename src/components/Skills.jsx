@@ -13,12 +13,7 @@ const Skills = () => {
             <SkillBadge name="Node.js" level={75} />
             <SkillBadge name="Tailwind CSS" level={90} />
             <SkillBadge name="MongoDB" level={70} />
-            <SkillBadge name="PostgreSQL" level={65} />
-            <SkillBadge name="GraphQL" level={60} />
-            <SkillBadge name="Docker" level={50} />
-            <SkillBadge name="AWS" level={55} />
             <SkillBadge name="Git" level={85} />
-            <SkillBadge name="UI/UX Design" level={70} />
           </div>
         </section>
     </div>

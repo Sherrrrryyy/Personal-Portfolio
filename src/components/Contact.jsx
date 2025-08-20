@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Contact = () => {
@@ -13,10 +14,6 @@ const Contact = () => {
                 some creative touch, I'd love to hear about it.
               </p>
               <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-white">✉️</span>
-                  <span>shaheerkhan090909@gmail.com</span>
-                </div>
                 <div className="flex items-center gap-3">
                   <span className="text-white">
                     <svg
@@ -35,7 +32,7 @@ const Contact = () => {
                       <circle cx="4" cy="4" r="2"></circle>
                     </svg>
                   </span>
-                  <a>www.linkedin.com/in/shaheer-khan-ab6327285</a>
+                  <Link href='www.linkedin.com/in/shaheer-khan-ab6327285'>Linkedin</Link>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-white">
@@ -54,7 +51,7 @@ const Contact = () => {
                       <path d="M9 18c-4.51 2-5-2-7-2"></path>
                     </svg>
                   </span>
-                  <span>github.com/Sherrrrryyy</span>
+                  <Link href={'github.com/Sherrrrryyy'}>Github</Link>
                 </div>
               </div>
             </div>
