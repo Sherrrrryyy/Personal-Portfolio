@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-4">
             <div className="flex items-center gap-3">
-                  <span>shaheerkhan090909@gmail.com</span>
+                  <span>m.shaheerrkhan417@gmail.com</span>
                 </div>
           </div>
         </div>
