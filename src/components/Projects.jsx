@@ -9,12 +9,12 @@ const Projects = () => {
           <h2 className="text-3xl font-bold mb-10">Featured Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <ProjectCard
-              title="To-do App with CRUD Operations"
-              description="A full-featured to-do application that allows users to create, read, update, and delete tasks with a user-friendly interface."
-              image=""
-              tags={["React.js", "JavaScript"]}
-              demoUrl="https://todo-with-react-js-five.vercel.app/"
-              repoUrl="https://github.com/Sherrrrryyy/Todo-with-React-js"
+              title="Traveling Website UI/UX Clone"
+              description="A responsive clone of a popular traveling website, featuring destination listings, user reviews, and booking functionality."
+              image="/Hilink.jpg"
+              tags={["Next.js", "TypeScript", "Tailwind CSS"]}
+              demoUrl="https://travel-website-ui-ux-one.vercel.app/"
+              repoUrl="https://github.com/Sherrrrryyy/Travel-Website-UI-UX"
             />
             <ProjectCard
               title="Electrical Store UI Design"
